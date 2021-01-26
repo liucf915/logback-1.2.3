@@ -61,7 +61,7 @@ public class SocketMin {
             s.setPort(port);
             s.setName("S");
             root.addAppender(s);
-        } catch (java.lang.NumberFormatException e) {
+        } catch (NumberFormatException e) {
             e.printStackTrace();
             usage("Could not interpret port number [" + portStr + "].");
         } catch (Exception e) {

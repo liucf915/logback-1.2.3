@@ -219,7 +219,7 @@ public class SimpleSocketServer extends Thread {
     static int parsePortNumber(String portStr) {
         try {
             return Integer.parseInt(portStr);
-        } catch (java.lang.NumberFormatException e) {
+        } catch (NumberFormatException e) {
             e.printStackTrace();
             usage("Could not interpret port number [" + portStr + "].");
             // we won't get here

@@ -23,7 +23,7 @@ import ch.qos.logback.core.spi.ContextAwareBase;
 /**
  * BasicConfigurator configures logback-classic by attaching a 
  * {@link ConsoleAppender} to the root logger. The console appender's layout 
- * is set to a {@link ch.qos.logback.classic.layout.TTLLLayout TTLLLayout}.
+ * is set to a {@link TTLLLayout TTLLLayout}.
  * 
  * @author Ceki G&uuml;lc&uuml;
  */

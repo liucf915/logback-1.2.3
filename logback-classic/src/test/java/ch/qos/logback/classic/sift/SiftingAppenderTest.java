@@ -379,7 +379,7 @@ public class SiftingAppenderTest {
         });
         connectorAppender.start();
 
-        ch.qos.logback.classic.Logger logger = loggerContext.getLogger("org.test");
+        Logger logger = loggerContext.getLogger("org.test");
         logger.addAppender(connectorAppender);
         logger.setLevel(Level.DEBUG);
         logger.setAdditive(false);

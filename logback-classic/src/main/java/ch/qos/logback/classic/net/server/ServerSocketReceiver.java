@@ -136,7 +136,7 @@ public class ServerSocketReceiver extends ReceiverBase {
      * This represents the number of connected clients whose connections 
      * have not yet been accepted.
      * @return queue depth
-     * @see java.net.ServerSocket
+     * @see ServerSocket
      */
     public int getBacklog() {
         return backlog;
@@ -148,7 +148,7 @@ public class ServerSocketReceiver extends ReceiverBase {
      * This represents the number of connected clients whose connections 
      * have not yet been accepted.
      * @param backlog the queue depth to set
-     * @see java.net.ServerSocket
+     * @see ServerSocket
      */
     public void setBacklog(int backlog) {
         this.backlog = backlog;

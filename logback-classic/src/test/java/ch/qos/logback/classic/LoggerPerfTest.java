@@ -161,7 +161,7 @@ public class LoggerPerfTest {
 
         NOPAppender<ILoggingEvent> nopAppender = new NOPAppender<ILoggingEvent>();
         nopAppender.start();
-        ((ch.qos.logback.classic.Logger) logger).addAppender(nopAppender);
+        ((Logger) logger).addAppender(nopAppender);
         for (long i = 0; i < len; i++) {
             logger.debug("Toto");
         }

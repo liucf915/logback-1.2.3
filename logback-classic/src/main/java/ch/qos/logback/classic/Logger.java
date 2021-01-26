@@ -41,7 +41,7 @@ public final class Logger implements org.slf4j.Logger, LocationAwareLogger, Appe
      * The fully qualified name of this class. Used in gathering caller
      * information.
      */
-    public static final String FQCN = ch.qos.logback.classic.Logger.class.getName();
+    public static final String FQCN = Logger.class.getName();
 
     /**
      * The name of this logger

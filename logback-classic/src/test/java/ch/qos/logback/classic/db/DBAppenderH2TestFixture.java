@@ -67,7 +67,7 @@ public class DBAppenderH2TestFixture {
 
     Connection newConnection() throws SQLException {
         System.out.println("url=" + url);
-        org.h2.Driver driver = Driver.load();
+        Driver driver = Driver.load();
         Properties props = new Properties();
         props.setProperty("user", user);
         props.setProperty("password", password);
