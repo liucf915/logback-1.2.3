@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="logback-core" />
+        <module name="logback-access" />
+        <module name="logback-classic" />
+        <module name="logback-examples" />
+        <module name="logback-site" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="logback-1.2.3" target="1.6" />
+      <module name="logback-access" target="1.6" />
+      <module name="logback-classic" target="1.6" />
+      <module name="logback-core" target="1.6" />
+      <module name="logback-examples" target="1.6" />
+      <module name="logback-site" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
